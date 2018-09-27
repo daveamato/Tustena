@@ -1,0 +1,199 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2EBE0904-F7E2-42AD-B4D3-7BF18D55C384}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Digita.Tustena.Base</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Digita.Tustena.Base</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Digita.Tustena.Core, Version=1.0.2403.24546, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Core\bin\Digita.Tustena.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.Database, Version=1.0.2403.24575, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\db\bin\Digita.Tustena.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitaMailer">
+      <Name>DigitaMailer</Name>
+      <HintPath>..\bin\DigitaMailer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <Name>itextsharp</Name>
+      <HintPath>..\bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleTimeZone, Version=1.0.1921.18467, Culture=neutral, PublicKeyToken=0cd5d224115c4858" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajax.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppSettingEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseRender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeleteChecked.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DigiGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileFunctions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FilterBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="G.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="goback.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndexGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ITransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessagesHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mht.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PageUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PDFOffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plaxo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="precompile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueryBuilderManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Recurrence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rijndael.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Scheduler.cs" />
+    <Compile Include="TemplateManager.cs" />
+    <Compile Include="TSTimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vcalendar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vcard.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

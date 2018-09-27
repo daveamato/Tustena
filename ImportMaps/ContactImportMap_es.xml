@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Título</Name>
+    <Matches>Titolo|Título</Matches>
+    <TblSrc>Title</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Empresa (Cross)</Name>
+    <Matches>Empresa|Company</Matches>
+    <TblSrc>companylink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Nombre</Name>
+    <Matches>Nome|Nombre</Matches>
+    <TblSrc>Name</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Apellido</Name>
+    <Matches>Cognome|Apellido</Matches>
+    <TblSrc>Surname</TblSrc>
+    <Must>1</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Teléfono</Name>
+    <Matches>Telefono|Phone|Telephone|Teléfono</Matches>
+    <TblSrc>Phone_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Móvil</Name>
+    <Matches>Cellulare|Móvil</Matches>
+    <TblSrc>MobilePhone_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax</Name>
+    <Matches>Fax|Fax</Matches>
+    <TblSrc>Fax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Correo Electrónico</Name>
+    <Matches>EMail|Posta Elettronica|Correo Electrónico</Matches>
+    <TblSrc>Email</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Dirección</Name>
+    <Matches>Indirizzo|Dirección</Matches>
+    <TblSrc>Address_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Ciudad</Name>
+    <Matches>Citta|Ciudad</Matches>
+    <TblSrc>City_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Provincia</Name>
+    <Matches>Provincia|Provincia</Matches>
+    <TblSrc>Province_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>CP</Name>
+    <Matches>CAP|ZIP|CP</Matches>
+    <TblSrc>ZIPCode_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>País</Name>
+    <Matches>Stato|País</Matches>
+    <TblSrc>State_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>CIF/NIF</Name>
+    <Matches>Partita IVA|Vat id|CIF/NIF</Matches>
+    <TblSrc>VatID</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Número de Identificación</Name>
+    <Matches>Codice fiscale|Número de Identificación</Matches>
+    <TblSrc>TaxIdentificationNumber</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Cargo Empresarial</Name>
+    <Matches>Ruolo aziendale|Business Role Cargo|Empresarial</Matches>
+    <TblSrc>BusinessRole</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fecha de nacimiento</Name>
+    <Matches>Data di nascita|Compleanno|Fecha de nacimiento|Cumpleaños</Matches>
+    <TblSrc>Birthday</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Notas</Name>
+    <Matches>Note|Notas</Matches>
+    <TblSrc>Notes</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

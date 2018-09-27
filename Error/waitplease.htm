@@ -1,0 +1,21 @@
+<html> 
+<head> 
+<script type="text/javascript"> 
+var timer=30;
+function wait()
+{
+if(timer==0)
+{
+	history.go(-1);
+}else{
+	setTimeout("wait()",1000); 
+	document.getElementById("msg").innerHTML=timer;
+	timer--;
+}
+}
+</script> 
+</head> 
+<body onload="wait()"> 
+<h3>Please wait, subsystem is reloading for mainteinance<h3><h3>Back to the CRM in&nbsp;<span id="msg"></span>&nbsp;seconds</h3>
+</body> 
+</html> 

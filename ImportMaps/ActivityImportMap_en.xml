@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Subject</Name>
+    <Matches>Subject</Matches>
+    <TblSrc>Subject</TblSrc>
+    <Must>1</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Description</Name>
+    <Matches>Description|Note</Matches>
+    <TblSrc>Description</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Activity Date</Name>
+    <Matches>Date</Matches>
+    <TblSrc>ActivityDate</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>* Company (Cross)</Name>
+    <Matches>Company</Matches>
+    <TblSrc>companylink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>* Contact (Cross)</Name>
+    <Matches>Contact|Referrer</Matches>
+    <TblSrc>referrerlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>* Lead (Cross)</Name>
+    <Matches>Lead|Contact|Referrer</Matches>
+    <TblSrc>leadlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

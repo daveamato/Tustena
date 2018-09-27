@@ -1,0 +1,5 @@
+Powered by Tustena CRM - http://www.tustena.com
+This email was sent to: to@to.to
+From: %COMPANY%, %ADDRESS%, %CAP%, %COUNTRY%, %STATE%
+(REMOVE) to be instantly deleted from this list. - http://crm.tustena.com/mailinglist/update.aspx?a=remove&e=Tustena.refid&c=%COMPANYID%&m=%MLID%
+(REPORT ABUSE) and remove me from the list. - http://crm.tustena.com/mailinglist/update.aspx?a=abuse&e=Tustena.refid&c=%COMPANYID%&m=%MLID%

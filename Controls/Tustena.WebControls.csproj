@@ -1,0 +1,186 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{81BE1162-DAF1-4DDA-BD5E-F9A2FD86B28D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Digita.Tustena.WebControls</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Digita.Tustena.WebControls</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Digita.Tustena.Base, Version=1.0.2302.15591, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Base\bin\Digita.Tustena.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.Core, Version=1.0.2299.24586, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Base\bin\Digita.Tustena.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.Database, Version=1.0.2299.24586, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Base\bin\Digita.Tustena.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExtContent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GoBackBtn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GroupDropDownList.cs" />
+    <Compile Include="jscontrolid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LocalizeResourceManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiMail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SideBar.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterAlphabet.ascx.cs">
+      <DependentUpon>RepeaterAlphabet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterBottom.ascx.cs">
+      <DependentUpon>RepeaterBottom.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterColumnHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterDelete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterFooter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterHeaderBegin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterHeaderEnd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterHeaderLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterHeaderText.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterMultiDelete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\RepeaterSearch.ascx.cs">
+      <DependentUpon>RepeaterSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TustenaRepeater\TustenaRepeater.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TustenaTabber\TustenaTab.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaTabber\TustenaTabber.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TustenaTabber\TustenaTabberRight.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="TustenaRepeater\RepeaterAlphabet.ascx" />
+    <Content Include="TustenaRepeater\RepeaterBottom.ascx" />
+    <Content Include="TustenaRepeater\RepeaterSearch.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

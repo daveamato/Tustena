@@ -1,0 +1,179 @@
+<TITLE>Tustena WebGate Lead Generator</TITLE>
+<textarea id="templatesource" style="width:100%;height:96%;">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML>
+<HEAD>
+<TITLE>Tustena WebGate Lead Generator</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<!-- These fields are optional -->
+<!-- do not change the action path -->
+<form name="Tustena_Form" method="post" action="http://crm.tustena.com/webgate/savelead.aspx">
+<table>
+  <tr>
+    <td class="fieldname">
+      CompanyName:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_CompanyName" name="Tustena_CompanyName" type="text" value="">
+    </td>
+  </tr>
+      <tr>
+    <td class="fieldname">
+      Title:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Title" name="Tustena_Title" type="text" value="">
+    </td>
+  </tr>  
+  <tr>
+    <td class="fieldname">
+      Name:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Name" name="Tustena_Name" type="text" value="">
+    </td>
+  </tr>  
+  <tr>
+    <td class="fieldname">
+      Surname:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Surname" name="Tustena_Surname" type="text" value="">
+    </td>
+  </tr>
+  <tr>
+    <td class="fieldname">
+      Address:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Address" name="Tustena_Address" type="text" value="">
+    </td>
+  </tr>  
+  <tr>
+    <td class="fieldname">
+      City:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_City" name="Tustena_City" type="text" value="">
+    </td>
+  </tr>  <tr>
+    <td class="fieldname">
+      Province:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Province" name="Tustena_Province" type="text" value="">
+    </td>
+  </tr>  <tr>
+    <td class="fieldname">
+      ZIPCode:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_ZIPCode" name="Tustena_ZIPCode" type="text" value="">
+    </td>
+  </tr>  <tr>
+    <td class="fieldname">
+      VAT:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_VAT" name="Tustena_VAT" type="text" value="">
+    </td>
+  </tr>  
+  <tr>
+    <td class="fieldname">
+      Email:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Email" name="Tustena_Email" type="text" value="">
+    </td>
+  </tr>
+  <tr>
+    <td class="fieldname">
+      Phone:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Phone" name="Tustena_Phone" type="text" value="">
+    </td>
+  </tr>
+  <tr>
+    <td class="fieldname">
+      Fax:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Fax" name="Tustena_Fax" type="text" value="">
+    </td>
+  </tr>  
+  <tr>
+    <td class="fieldname">
+      MobilePhone:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_MobilePhone" name="Tustena_MobilePhone" type="text" value="">
+    </td>
+  </tr>   
+  <tr>
+    <td class="fieldname">
+      Notes:
+    </td>
+    <td class="fieldtext">
+      <input id="Tustena_Notes" name="Tustena_Notes" type="text" value="">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <input type="Submit" value="SUBMIT">
+      <!-- do not change the company code, it must reflect the companycode present in the Admin/Company menu -->
+      <input name="Tustena_CompanyCode" type="hidden" value="%COMPANYCODE%">
+      <!-- insert here your return page -->
+      <input name="Tustena_thankspage" type="hidden" value="http://www.yoursite.com/thanks.htm">    
+    </td>
+  </tr>
+<table>
+</form>
+</body>
+</html>
+</textarea>
+<input type="button" value="copy to clipboard" onclick="copy_clip(document.getElementById('templatesource').value)">
+<script language="javascript" type="text/javascript">
+<!--
+function copy_clip(textarea)
+{
+
+ if (window.clipboardData) 
+   {
+   window.clipboardData.setData("Text", textarea);
+   }
+   else if (window.netscape) 
+   { 
+   netscape.security.PrivilegeManager.enablePrivilege('UniversalXPConnect');
+   
+   var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+   if (!clip) return;
+   
+   var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+   if (!trans) return;
+   
+   trans.addDataFlavor('text/unicode');
+   
+   var str = new Object();
+   var len = new Object();
+   
+   var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+   
+   var copytext=textarea;
+   
+   str.data=copytext;
+   
+   trans.setTransferData("text/unicode",str,copytext.length*2);
+   
+   var clipid=Components.interfaces.nsIClipboard;
+   
+   if (!clip) return false;
+   
+   clip.setData(trans,null,clipid.kGlobalClipboard);
+   
+   }
+   return false;
+}
+//-->
+</script>

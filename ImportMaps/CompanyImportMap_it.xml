@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Ragione Sociale</Name>
+    <Matches>Ragione Sociale</Matches>
+    <TblSrc>CompanyName</TblSrc>
+    <Must>1</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Codice Azienda</Name>
+    <Matches>Codice Azienda</Matches>
+    <TblSrc>CompanyCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Telefono</Name>
+    <Matches>Telefono|Phone|Telephone</Matches>
+    <TblSrc>Phone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax</Name>
+    <Matches>Fax</Matches>
+    <TblSrc>Fax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Email</Name>
+    <Matches>Email|Posta Elettronica</Matches>
+    <TblSrc>EMail</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Sito Web</Name>
+    <Matches>Sito Web|WebSite|Pagina Web</Matches>
+    <TblSrc>WebSite</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Indirizzo</Name>
+    <Matches>Indirizzo|Via</Matches>
+    <TblSrc>InvoicingAddress</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Città</Name>
+    <Matches>Città|Citt</Matches>
+    <TblSrc>InvoicingCity</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Provincia</Name>
+    <Matches>Provincia</Matches>
+    <TblSrc>InvoicingStateProvince</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Nazione</Name>
+    <Matches>Stato|Nazione|Paese</Matches>
+    <TblSrc>InvoicingState</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>CAP</Name>
+    <Matches>CAP</Matches>
+    <TblSrc>InvoicingZipCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Partita Iva</Name>
+    <Matches>Partita iva|iva</Matches>
+    <TblSrc>vatid</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fatturato</Name>
+    <Matches>fatturato|utile|reddito</Matches>
+    <TblSrc>billed</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Dipendenti</Name>
+    <Matches>dimendenti|impiegati</Matches>
+    <TblSrc>Employees</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Telefono Secondario</Name>
+    <Matches>Altro Telefono|Secondary Phone|Secondary Telephone</Matches>
+    <TblSrc>ShipmentPhone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax Secondario</Name>
+    <Matches>Fax Secondario|Altro Fax</Matches>
+    <TblSrc>ShipmentFax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Email Secondaria</Name>
+    <Matches>Altra Email</Matches>
+    <TblSrc>ShipmentEMail</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Indirizzo Secondario</Name>
+    <Matches>Altro Indirizzo|Altra Via</Matches>
+    <TblSrc>ShipmentAddress</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Città Secondaria</Name>
+    <Matches>Altra Città|Altra Citt</Matches>
+    <TblSrc>ShipmentCity</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Provincia Secondaria</Name>
+    <Matches>Altro Stato|Altra Provincia</Matches>
+    <TblSrc>ShipmentStateProvince</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Stato Secondaria</Name>
+    <Matches>Altro Stato|Altra Nazione|Altro Paese</Matches>
+    <TblSrc>ShipmentState</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>CAP Secondario</Name>
+    <Matches>Altro CAP</Matches>
+    <TblSrc>ShipmentZipCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Descrizione</Name>
+    <Matches>Note|Descrizione|Altro</Matches>
+    <TblSrc>Description</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user|Proprietario</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

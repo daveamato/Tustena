@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Soggetto</Name>
+    <Matches>Subject|Oggetto</Matches>
+    <TblSrc>Subject</TblSrc>
+    <Must>1</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Descrizione</Name>
+    <Matches>Description|Descrizione|Note</Matches>
+    <TblSrc>Description</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Data Attività</Name>
+    <Matches>Date|Data</Matches>
+    <TblSrc>ActivityDate</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>* Azienda (Cross)</Name>
+    <Matches>Azienda|Company</Matches>
+    <TblSrc>companylink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>* Referente (Cross)</Name>
+    <Matches>Contact|Contatto|Referrer|Referente</Matches>
+    <TblSrc>referrerlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>* Lead (Cross)</Name>
+    <Matches>Lead|Contact|Contatto|Referrer|Referente</Matches>
+    <TblSrc>leadlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

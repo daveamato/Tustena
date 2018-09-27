@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Titolo</Name>
+    <Matches>Titolo</Matches>
+    <TblSrc>Title</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Azienda (Cross)</Name>
+    <Matches>Azienda|Company</Matches>
+    <TblSrc>companylink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Nome</Name>
+    <Matches>Nome|Name</Matches>
+    <TblSrc>Name</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Cognome</Name>
+    <Matches>Cognome</Matches>
+    <TblSrc>Surname</TblSrc>
+    <Must>1</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Telefono</Name>
+    <Matches>Telefono|Phone|Telephone</Matches>
+    <TblSrc>Phone_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Cellulare</Name>
+    <Matches>Cellulare|Mobile</Matches>
+    <TblSrc>MobilePhone_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax</Name>
+    <Matches>Fax</Matches>
+    <TblSrc>Fax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>EMail</Name>
+    <Matches>EMail|Posta Elettronica</Matches>
+    <TblSrc>Email</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Indirizzo</Name>
+    <Matches>Indirizzo</Matches>
+    <TblSrc>Address_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Citta</Name>
+    <Matches>Citta</Matches>
+    <TblSrc>City_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Provincia</Name>
+    <Matches>Provincia</Matches>
+    <TblSrc>Province_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>CAP</Name>
+    <Matches>CAP|ZIP</Matches>
+    <TblSrc>ZIPCode_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Stato</Name>
+    <Matches>Stato</Matches>
+    <TblSrc>State_1</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Partita IVA</Name>
+    <Matches>Partita IVA|Vat id</Matches>
+    <TblSrc>VatID</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Codice fiscale</Name>
+    <Matches>Codice fiscale</Matches>
+    <TblSrc>TaxIdentificationNumber</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Ruolo aziendale</Name>
+    <Matches>Ruolo aziendale|Business Role</Matches>
+    <TblSrc>BusinessRole</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Data di nascita</Name>
+    <Matches>Data di nascita|Compleanno</Matches>
+    <TblSrc>Birthday</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Note</Name>
+    <Matches>Note</Matches>
+    <TblSrc>Notes</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Company Name</Name>
+    <Matches>Company Name|Business Name|Company</Matches>
+    <TblSrc>CompanyName</TblSrc>
+    <Must>1</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Company Code</Name>
+    <Matches>Codice Azienda</Matches>
+    <TblSrc>CompanyCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Telephone</Name>
+    <Matches>Telephone|Phone|Telephone Number|Business Phone|Company Main Phone|Primary Phone</Matches>
+    <TblSrc>Phone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax</Name>
+    <Matches>Fax|Fax Number|Business Fax|Other Fax|Company Fax</Matches>
+    <TblSrc>Fax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Email</Name>
+    <Matches>Email|E-Mail|Business E-mail|E-mail Address</Matches>
+    <TblSrc>EMail</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Web site</Name>
+    <Matches>Web|Website|URL|Web Address|WebSite</Matches>
+    <TblSrc>WebSite</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Address</Name>
+    <Matches>Address|Business Address|Billing Address|Business Street</Matches>
+    <TblSrc>InvoicingAddress</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>City</Name>
+    <Matches>City|Business City|Other City|Billing City</Matches>
+    <TblSrc>InvoicingCity</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Province</Name>
+    <Matches>State|Province|Business State</Matches>
+    <TblSrc>InvoicingStateProvince</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Nation</Name>
+    <Matches>State|Nation|Country</Matches>
+    <TblSrc>InvoicingState</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Postal Code</Name>
+    <Matches>ZIP|zip code|Postal Code|Business Postal Code</Matches>
+    <TblSrc>InvoicingZipCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Vat ID no.</Name>
+    <Matches>vat|tax</Matches>
+    <TblSrc>vatid</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+    <MatchData>
+    <Name>Revenue</Name>
+    <Matches>Revenue|Sales|turnover|Income</Matches>
+    <TblSrc>billed</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Employees</Name>
+    <Matches>Employees</Matches>
+    <TblSrc>Employees</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Secondary Telephone</Name>
+    <Matches>Secondary Telephone|Secondary Phone|Secondary Telephone Number|Secondary Business Phone|Secondary Company Main Phone|Secondary Primary Phone|Alternative Telephone|Alternative Phone|Alternative Telephone Number|Alternative Business Phone|Alternative Company Main Phone|Alternative Primary Phone</Matches>
+    <TblSrc>ShipmentPhone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Secondary Fax</Name>
+    <Matches>Secondary Fax|Secondary Fax Number|Secondary Business Fax|Secondary Other Fax|Secondary Company Fax|Alternative Fax|Alternative Fax Number|Alternative Business Fax|Alternative Other Fax|Alternative Company Fax</Matches>
+    <TblSrc>ShipmentFax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Secondary Email</Name>
+    <Matches>Secondary Email|Secondary E-Mail|Secondary Business E-mail|Secondary E-mail Address|Alternative Email|Alternative E-Mail|Alternative Business E-mail|Alternative E-mail Address</Matches>
+    <TblSrc>ShipmentEMail</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Secondary Address</Name>
+    <Matches>Secondary Address|Secondary Business Address|Secondary Billing Address|Secondary Business Street</Matches>
+    <TblSrc>ShipmentAddress</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Secondary City</Name>
+    <Matches>Secondary City|Secondary Business City|Other City|Secondary Billing City</Matches>
+    <TblSrc>ShipmentCity</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Secondary Province</Name>
+    <Matches>Secondary State|Secondary Province|Secondary Business State</Matches>
+    <TblSrc>ShipmentStateProvince</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Secondary State</Name>
+    <Matches>Secondary Nation|Secondary Country</Matches>
+    <TblSrc>ShipmentState</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Secondary Postal Code</Name>
+    <Matches>Secondary ZIP|Secondary zip code|Secondary Postal Code|Secondary Business Postal Code|alternate ZIP|alternate zip code|alternate Postal Code|alternate Business Postal Code</Matches>
+    <TblSrc>ShipmentZipCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Description</Name>
+    <Matches>Note|Description|Other|Misc</Matches>
+    <TblSrc>Description</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

@@ -1,0 +1,198 @@
+.inBarMenu{
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+}
+
+#Logo
+{
+  padding: 2px;
+  background-color: #FFF;
+}
+
+#BarMenu
+{
+  text-align: left;
+  border-style: solid none;
+  border-width: 1px;
+  ___overflow:hidden;
+  ___white-space:nowrap;
+}
+
+#BarMenu a
+{
+  font-size: 11px;
+}
+
+#BarMenu, .Buttons a
+{
+  background-image:
+      url(/template/red_highlight_top_left.png);
+}
+
+#BarMenu .FirstItem
+{
+    margin-left: 3px;
+}
+
+#SubBarMenu a
+{
+  font-size: 10px;
+  color: #000;
+}
+
+#SubBarMenu a:hover, #SubBarMenu a:focus
+{
+  color: #888;
+}
+#SubBarMenu a:active
+{
+  color: #AAA;
+}
+
+#SubBarMenu
+{
+  text-align: left;
+  padding-top: 0.5ex;
+  padding-bottom: 0.4ex;
+  margin-left: none;
+  background-repeat: repeat-x;
+  ___overflow:hidden;
+  ___white-space:nowrap;
+  background-image: url(/images/GridTitleBg.gif);
+  background-position: bottom;
+}
+
+#SubBarMenu li
+{
+  border-left-style__: solid;
+  border-width__: 1px;
+  list-style__: square inside;
+  background-image: url(/images/topmenu_sep.gif);
+  background-repeat: no-repeat;
+  border-bottom: none;
+}
+
+#SubBarMenu .FirstItem
+{
+  border-left__: none;
+   background-image: none;
+}
+
+.Buttons a
+{
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+.Buttons .FirstItem a
+{
+  border-left-style: solid;
+}
+
+.Buttons, .Buttons a
+{
+  border-color: #C4750E;
+  padding-top: 0.5ex;
+  padding-bottom: 0.4ex;
+  background-repeat: no-repeat;
+}
+
+.inBarMenu a, .inBarMenu a:visited
+{
+  color: #000;
+}
+
+
+.inBarMenu
+{
+  background-repeat: repeat-y;
+}
+
+.inBarMenu
+{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.inBarMenu li
+{
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.inBarMenu a
+{
+  white-space: nowrap;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-decoration: none;
+}
+
+#MenuSelected
+a
+{
+  background-image:url(/template/white_pressed_button.png);
+  background-color:#FFF;
+  color:#000;
+}
+
+.floattop{
+  FLOAT: right;
+  padding-right: 6px;
+}
+
+.floatname{
+  FLOAT: right;
+  padding: 4px 6px 0 0;
+}
+
+.floatlive{
+  FLOAT: right;
+  height:15px;
+}
+
+.floattop img
+{
+height:12px;
+}
+
+
+/* design Colors
+
+#SubBarMenu li, 
+*/
+#SubMenuSelected a
+{
+	border-bottom: 2px solid orange;
+}
+
+.SideBorderLinked{
+  border-right: 1px solid orange;
+}
+
+#SubBarMenu
+{
+  background-color:silver;
+
+}
+.CommonColor{
+  background-color:ORANGE;
+  color:#FFF;
+}
+
+.inBarMenu a:hover, .inBarMenu a:focus, .inBarMenu a:active
+{
+  color: #FFF;
+}
+
+.Buttons
+{
+  background-color: ORANGE;
+}
+
+#topbarTustena{
+  margin-left:120px;
+  border-top: 2px solid #686767;
+}

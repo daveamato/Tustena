@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Razón Social</Name>
+    <Matches>Ragione Sociale|Razón Social</Matches>
+    <TblSrc>CompanyName</TblSrc>
+    <Must>1</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Código Empresa</Name>
+    <Matches>Codice Azienda|Código Empresa</Matches>
+    <TblSrc>CompanyCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Teléfono</Name>
+    <Matches>Telefono|Phone|Telephone|Teléfono</Matches>
+    <TblSrc>Phone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax</Name>
+    <Matches>Fax</Matches>
+    <TblSrc>Fax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Correo Electrónico</Name>
+    <Matches>Email|Posta Elettronica|Correo Electrónico</Matches>
+    <TblSrc>EMail</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Sitio Web</Name>
+    <Matches>Sito Web|WebSite|Sitio Web</Matches>
+    <TblSrc>WebSite</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Dirección</Name>
+    <Matches>Indirizzo|Via|Dirección</Matches>
+    <TblSrc>InvoicingAddress</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Ciudad</Name>
+    <Matches>Città|City|Ciudad</Matches>
+    <TblSrc>InvoicingCity</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Provincia</Name>
+    <Matches>Provincia</Matches>
+    <TblSrc>InvoicingStateProvince</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>País</Name>
+    <Matches>Stato|Nazione|Paese|Estado|Nación|País</Matches>
+    <TblSrc>InvoicingState</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>CP</Name>
+    <Matches>CAP|CP</Matches>
+    <TblSrc>InvoicingZipCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>IVA</Name>
+    <Matches>iva</Matches>
+    <TblSrc>vatid</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+    <MatchData>
+    <Name>Facturado</Name>
+    <Matches>Facturado|utile|reddito</Matches>
+    <TblSrc>billed</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Empleados</Name>
+    <Matches>Empleados|impiegati</Matches>
+    <TblSrc>Employees</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Teléfono Secundario</Name>
+    <Matches>Altro Telefono|Secondary Phone|Secondary Telephone|Teléfono Secundario</Matches>
+    <TblSrc>ShipmentPhone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax Secundario</Name>
+    <Matches>Fax Secondario|Altro Fax|Fax Secundario</Matches>
+    <TblSrc>ShipmentFax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Correo E. Secundario</Name>
+    <Matches>Altra Email|Correo E. Secundario</Matches>
+    <TblSrc>ShipmentEMail</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Dirección Secundaria</Name>
+    <Matches>Altro Indirizzo|Altra Via|Dirección Secundaria</Matches>
+    <TblSrc>ShipmentAddress</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Ciudad Secundaria</Name>
+    <Matches>Altra Città|Altra Citt|Ciudad Secundaria</Matches>
+    <TblSrc>ShipmentCity</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Provincia Secundaria</Name>
+    <Matches>Altro Stato|Altra Provincia|Estado Secundario|Provincia Secundaria</Matches>
+    <TblSrc>ShipmentStateProvince</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>País Secundario</Name>
+    <Matches>Altro Stato|Altra Nazione|Altro Paese|País Secundario|Nación Secundaria|Estado Secundario</Matches>
+    <TblSrc>ShipmentState</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>CP Secundario</Name>
+    <Matches>Altro CAP|CP Secundario</Matches>
+    <TblSrc>ShipmentZipCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Descripción</Name>
+    <Matches>Note|Descripción</Matches>
+  <TblSrc>Description</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Título</Name>
+    <Matches>Titolo|Título</Matches>
+    <TblSrc>Title</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Nombre</Name>
+    <Matches>Nome|Nombre</Matches>
+    <TblSrc>Name</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Apellido</Name>
+    <Matches>Cognome|Apellido</Matches>
+    <TblSrc>Surname</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Empresa</Name>
+    <Matches>Ragione sociale|Azienda|Company Name|Business Name|Company|Empresa|Razón Social|Nombre Empresa</Matches>
+    <TblSrc>CompanyName</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Cargo Empresarial</Name>
+    <Matches>Ruolo aziendale|Business Role Cargo|Empresarial</Matches>
+    <TblSrc>BusinessRole</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Teléfono</Name>
+    <Matches>Telefono|Phone|Telephone|Teléfono</Matches>
+    <TblSrc>Phone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Móvil</Name>
+    <Matches>Cellulare|Móvil</Matches>
+    <TblSrc>MobilePhone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax</Name>
+    <Matches>Fax</Matches>
+    <TblSrc>Fax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Correo Electrónico</Name>
+    <Matches>EMail|Posta Elettronica|Correo Electrónico</Matches>
+    <TblSrc>Email</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Sitio Web</Name>
+    <Matches>Sito Web|WebSite|Sitio Web</Matches>
+    <TblSrc>WebSite</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Dirección</Name>
+    <Matches>Indirizzo|Dirección</Matches>
+    <TblSrc>Address</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Ciudad</Name>
+    <Matches>Citta|Ciudad</Matches>
+    <TblSrc>City</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Provincia</Name>
+    <Matches>Provincia</Matches>
+    <TblSrc>Province</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>CP</Name>
+    <Matches>CAP|ZIP|CP</Matches>
+    <TblSrc>ZIPCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>País</Name>
+    <Matches>Stato|País</Matches>
+    <TblSrc>State</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Número de Identificación</Name>
+    <Matches>Codice fiscale|Número de Identificación</Matches>
+    <TblSrc>TaxIdentificationNumber</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fecha de nacimiento</Name>
+    <Matches>Data di nascita|Compleanno|Fecha de nacimiento|Cumpleaños</Matches>
+    <TblSrc>Birthday</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Notas</Name>
+    <Matches>Note|Notas</Matches>
+    <TblSrc>Notes</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

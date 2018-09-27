@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tustena", "Tustena.csproj", "{28A1FC23-38AA-4B23-B80E-7C2A21FB1B37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6EECC9D-0EBA-4B03-B2CF-0C2995EC64D1} = {A6EECC9D-0EBA-4B03-B2CF-0C2995EC64D1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tustena.Database", "db\Tustena.Database.csproj", "{A6EECC9D-0EBA-4B03-B2CF-0C2995EC64D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tustena.Base", "Base\Tustena.Base.csproj", "{2EBE0904-F7E2-42AD-B4D3-7BF18D55C384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tustena.WebControls", "Controls\Tustena.WebControls.csproj", "{81BE1162-DAF1-4DDA-BD5E-F9A2FD86B28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tustena.Core", "Core\Tustena.Core.csproj", "{1D7A1A35-3740-4B78-89D7-7983032C2C2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A1FC23-38AA-4B23-B80E-7C2A21FB1B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A1FC23-38AA-4B23-B80E-7C2A21FB1B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A1FC23-38AA-4B23-B80E-7C2A21FB1B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A1FC23-38AA-4B23-B80E-7C2A21FB1B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EECC9D-0EBA-4B03-B2CF-0C2995EC64D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EECC9D-0EBA-4B03-B2CF-0C2995EC64D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EECC9D-0EBA-4B03-B2CF-0C2995EC64D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EECC9D-0EBA-4B03-B2CF-0C2995EC64D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBE0904-F7E2-42AD-B4D3-7BF18D55C384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBE0904-F7E2-42AD-B4D3-7BF18D55C384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBE0904-F7E2-42AD-B4D3-7BF18D55C384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBE0904-F7E2-42AD-B4D3-7BF18D55C384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BE1162-DAF1-4DDA-BD5E-F9A2FD86B28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BE1162-DAF1-4DDA-BD5E-F9A2FD86B28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BE1162-DAF1-4DDA-BD5E-F9A2FD86B28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BE1162-DAF1-4DDA-BD5E-F9A2FD86B28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7A1A35-3740-4B78-89D7-7983032C2C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7A1A35-3740-4B78-89D7-7983032C2C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7A1A35-3740-4B78-89D7-7983032C2C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7A1A35-3740-4B78-89D7-7983032C2C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

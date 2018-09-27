@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <MatchData>
+    <Name>Mr. / Mrs.</Name>
+    <Matches>Title|Greeting|Salutation</Matches>
+    <TblSrc>Title</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>First Name</Name>
+    <Matches>Name|First Name|Given Name</Matches>
+    <TblSrc>Name</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Last Name</Name>
+    <Matches>Last Name|Family Name|Surname</Matches>
+    <TblSrc>Surname</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Company Name</Name>
+    <Matches>Company Name|Business Name|Company</Matches>
+    <TblSrc>CompanyName</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Job Title</Name>
+    <Matches>Business Role|Title</Matches>
+    <TblSrc>BusinessRole</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Telephone</Name>
+    <Matches>Business Phone|Phone|Telephone|Home Phone</Matches>
+    <TblSrc>Phone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Mobile Phone</Name>
+    <Matches>Mobile Phone|Cellular|Cell Phone|Car Phone|Other Phone</Matches>
+    <TblSrc>MobilePhone</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Fax Number</Name>
+    <Matches>Business Fax|Fax|Other Fax|Telex</Matches>
+    <TblSrc>Fax</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>E-Mail</Name>
+    <Matches>|email|E-mail|E-mail Address</Matches>
+    <TblSrc>Email</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Web site</Name>
+    <Matches>Web|Website|URL|Web Address|WebSite</Matches>
+    <TblSrc>WebSite</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Address</Name>
+    <Matches>Address|Business Address|Business Street|Home Street|Other Street</Matches>
+    <TblSrc>Address</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>City</Name>
+    <Matches>City|Business City|Home City|Other City</Matches>
+    <TblSrc>City</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>State/Province</Name>
+    <Matches>Province|State|Region|Business State|Home State|Other State</Matches>
+    <TblSrc>Province</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Postal code</Name>
+    <Matches>CAP|ZIP|Business Postal Code|Home Postal Code|Other Postal Code</Matches>
+    <TblSrc>ZIPCode</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Nation</Name>
+    <Matches>Nation|Country|Business Country|Home Country|Other Country</Matches>
+    <TblSrc>State</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Tax ID No.</Name>
+    <Matches>Social Security Number|SSN|Tax</Matches>
+    <TblSrc>TaxIdentificationNumber</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Date of birth</Name>
+    <Matches>Birthday|birth</Matches>
+    <TblSrc>Birthday</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Notes</Name>
+    <Matches>Notes</Matches>
+    <TblSrc>Notes</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+  <MatchData>
+    <Name>Owner (Cross)</Name>
+    <Matches>Owner|user</Matches>
+    <TblSrc>accountlink</TblSrc>
+    <Must>0</Must>
+  </MatchData>
+</dataset>

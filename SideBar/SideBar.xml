@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controls>
+  <control ID="AllNew" File="AllNew" Order="1" Active="true"/>
+  <control ID="Calendar" File="Calendar" Order="2" Active="true"/>
+  <control ID="Calculator" File="Calculator" Order="3" Active="true"/>
+  <control ID="RecentItems" File="RecentItems" Order="4" Active="true"/>
+</controls>
